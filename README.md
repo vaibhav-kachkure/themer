@@ -1,4 +1,4 @@
 # themer
 This is my first GitHub repository.
 <br>
-Author - Vaibhav kachkure
+Author - Vaibhav kachkure (Vk Developer)
