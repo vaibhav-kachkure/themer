@@ -1,21 +1,31 @@
 /*Strat navbar*/
 .navbar{
     background-color: rgb(17, 0, 79);
+    padding: 10px 0px;
 }
 .nav-item{
     padding: 0px 20px;
 }
 .nav-item:hover{
-background-color: #fff;
+/* background-color: #fff; */
 }
 .nav-item:hover .nav-link{
-    color:rgb(17, 0, 79);
+    color:#ff9041;;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-brand i {
+    color:#ff9041;;
+    font-weight: 700 !important;
+    font-size: 30px;
 }
 /* End navbar* /
 
 /* Start Slider*/
 .bg1{
-    background: linear-gradient(rgba(17, 0, 79,0.5), rgba(17, 0, 79, 0.5) ), url("images/slider/image-1.jpg");
+    background: linear-gradient(rgba(17, 0, 79,0.5), rgba(44, 43, 49, 0.5) ), url("images/slider/image-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,3 +95,72 @@ background-color: #fff;
 color: rgba(17, 0, 79,0.5);
 }
 /* End Slider */
+
+/* About */
+
+.section {
+    padding: 50px 0px;
+} 
+
+.mainheading {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+
+.mainheading::before{
+    content: "";
+    width: 100px;
+    background-color: #ff9041;
+    height: 2px;
+    margin: 14px;
+    display: inline-block;
+}  
+.mainheading::after{
+    content: "";
+    width: 100px;
+    background-color: #ff9041;
+    height: 2px;
+    margin: 14px;
+    display: inline-block;
+}  
+.subheading{
+    text-align: center;
+    display: block;
+}
+.about p li{
+line-height: 30px;
+}
+
+.about ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.about i {
+    padding-right: 10px;
+    color: #ff9041;
+    font-size: 20px;
+}
+
+.aboutlearnmore{
+    color: #ff9041;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ff9041;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.aboutlearnmore:hover{
+    color: #fff; 
+    background-color: #ff9041;
+    transition: 0.5s;
+
+}
+
+
+
+/* End About* /
