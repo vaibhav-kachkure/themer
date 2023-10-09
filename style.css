@@ -6,9 +6,7 @@
 .nav-item{
     padding: 0px 20px;
 }
-.nav-item:hover{
-/* background-color: #fff; */
-}
+
 .nav-item:hover .nav-link{
     color:#ff9041;;
 }
@@ -98,7 +96,7 @@ color: rgba(17, 0, 79,0.5);
 
 /* About */
 
-.section {
+section {
     padding: 50px 0px;
 } 
 
