@@ -159,6 +159,35 @@ line-height: 30px;
 
 }
 
+.mycard {
+    padding: 20px;
+    box-shadow: 0px 0px 30px #cecece;
+    text-align: center;
+    margin-top: 40px;
+}
 
+.mycard i {
+    font-size: 40px;
+}
+.counter{
+    font-size: 40px;
+    font-weight: 900;
+}
 
+.mycard a{
+    text-decoration: none;
+    color: #ff9041;
+}
+
+.mycard a:hover{
+     letter-spacing: 1px;
+     transition: 0.5s;
+
+}
+
+.cardtitle {
+    font-size: 30px;
+    font-weight: 300;
+    color: #c1c1c1;
+}
 /* End About* /
