@@ -235,3 +235,41 @@ line-height: 30px;
 
 
 /* End Services*/
+
+/* Team*/
+.teamcard{
+    padding: 20px;  
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.teamcard:hover{
+box-shadow: 0px 0px 30px #cecece;
+}
+
+.team{
+    background-color: #f8f9fa;
+}
+.teamcard img{
+    border-radius: 5px;
+}
+.teamcard h3{
+    margin-top: 10px;
+
+}
+.teamcard p{
+    color: #767676;
+
+}
+.teamcard i{
+    padding: 10px;
+    font-size: 20px;
+}
+.teamcard i:hover{
+    color: #ff9041;
+    cursor: pointer;
+}
+.teamcard a{
+    color: #3333;
+}
+/*End Team*/
