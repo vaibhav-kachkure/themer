@@ -210,3 +210,28 @@ line-height: 30px;
     color: #ff9041;
 }
 /* End Help */
+
+/* Services*/
+.service-card{
+    padding: 20px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.service-card i{
+    color: #ff9041;
+}
+.service-card a{
+    text-decoration: none;
+    color: #ff9041;
+}
+
+.service-card a:hover{
+    color: #ff9041;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+/* End Services*/
