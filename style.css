@@ -242,6 +242,7 @@ line-height: 30px;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
+    margin-top: 40px;
 }
 .teamcard:hover{
 box-shadow: 0px 0px 30px #cecece;
@@ -264,6 +265,7 @@ box-shadow: 0px 0px 30px #cecece;
 .teamcard i{
     padding: 10px;
     font-size: 20px;
+    color: #11004f;
 }
 .teamcard i:hover{
     color: #ff9041;
@@ -272,4 +274,20 @@ box-shadow: 0px 0px 30px #cecece;
 .teamcard a{
     color: #3333;
 }
-/*End Team*/
+/*End Team*/ 
+
+/* Accordian FAQs*/
+.accordion-button{
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #767676; 
+}
+.accordion-item{
+    margin-top: 20px;
+}
+.faq p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*End Accordian FAQs*/
