@@ -291,3 +291,23 @@ box-shadow: 0px 0px 30px #cecece;
 }
 
 /*End Accordian FAQs*/
+
+/* Start Gallery */
+.gallery{
+    background-color: #f8f9fa;
+}
+.tab-content{
+    background-color: #fff;
+    padding: 50px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #11004f;
+    color: #fff;
+}
+.nav-tabs .nav-link{
+color: #333333;
+}
+.nav-tabs img{
+margin-top: 50px;
+}
+/* End Gallry */
