@@ -311,3 +311,24 @@ color: #333333;
 margin-top: 50px;
 }
 /* End Gallry */
+
+/* Contact */
+ .contact i{
+font-size: 30px;
+color: #ff9041;
+ }
+
+ .formbtn{
+background-color: #11004f;
+color: #fff;
+border: 1px solid #11004f;
+padding: 10px 40px;
+margin-top: 20px; 
+ }
+ .formbtn:hover{
+border: 1px solid #11004f;
+background-color: #fff;
+color: #11004f;
+transition: 0.5s;
+ }
+/* End contact*/
